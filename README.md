@@ -6,4 +6,4 @@
 <h2>logic.js</h2>
 <p>This file contains all the functions that we used in the game developpment</p>
 <h2>game.js</h2>
-<p>This file contains a signe function call to lanch the main menu of the game</p> 
+<p>This file contains a signe function call to launch the main menu of the game</p> 
