@@ -24,21 +24,6 @@ function drawSnake() {
     }
 }
 function growSnake() {
-    //let tails = snake[snake.length - 1];
-    //snake.push(createSnakePart(tails.x - snakeSize, tails.y));
-   /* tails = snake[snake.length - 1];
-    if (key == "ArrowRight") {
-        snake.push(createSnakePart(tails.x - snakeSize, tails.y));
-    }
-    if (key == "ArrowLeft") {
-        snake.push(createSnakePart(tails.x + snakeSize, tails.y));
-    }
-    if (key == "ArrowDown") {
-        snake.push(createSnakePart(tails.x, tails.y+snakeSize));
-    }
-    if (key == "ArrowUp") {
-        snake.push(createSnakePart(tails.x, tails.y-snakeSize));
-    }*/
     snake.push(snake[snake.length-1]);
     snake.push(snake[snake.length-1]);
     snake.push(snake[snake.length-1]);
