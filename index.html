@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body {
+            display: flex;
+            /*background-color:  rgb(232, 228, 216);*/
+            /* background-color: rgb(216, 232, 250);*/
+            background-color: #f2f2f2;
+            /*background-color: rgb(186, 207, 197);*/
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        h1 {
+            /*color: #333333;*/
+            color: white;
+        }
+        h1 span{
+            background-color: #00b33c;
+            
+        }
+
+        #gameArea {
+            /*width: 900px;
+            height: auto;
+            */
+            width: 900px;
+            height: auto;
+            border: 5px solid #00b33c;
+            font-size: x-large;
+            align-self: center;
+        }
+
+        .btns {
+            margin-top: 25px;
+            font-size: xx-large;
+
+        }
+
+        .btns span {
+            background-color: gold;
+        }
+
+        .btn {
+            padding: 10px;
+            border-radius: 50%;
+            width: 150px;
+            font-size: xx-large;
+        }
+
+        .btnstart {
+            background-color: green;
+            color: white;
+        }
+
+        .btnstop {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><span>Snake Game</span></h1>
+    <canvas id="gameArea"></canvas>
+    <div class="btns">
+        <button class="btn btnstart" onclick="startTheGame()" id="startbtn">Start</button>
+        <button class="btn btnstop" onclick="stopTheGame()">Stop</button>
+    </div>
+    <script src="configurations.js"></script>
+    <script src="logic.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
